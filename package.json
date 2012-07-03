@@ -2,7 +2,7 @@
   "author": "Reid Burke <me@reidburke.com> (http://reidburke.com/)",
   "name": "rampant",
   "description": "Easy profiling on Mac OS X using Google Chrome Canary's frontend.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/reid/rampant.git"
@@ -20,6 +20,6 @@
     "webkit-devtools-agent": "*"
   },
   "engines": {
-    "node": "~0.6.14"
+    "node": "~0.6.14 || ~0.7.11 || ~0.8.0"
   }
 }
