@@ -7,7 +7,7 @@ Rampant launches your Node.js application into a profiler session using [node-we
 1. Requires Mac OS X.
 2. Requires [Google Chrome Canary][canary].
 3. Does not work if your app depends on STDIN.
-4. Does not work if your script expects to be invoked directly (ie, it checks for `require.main === module`)
+4. Does not work if your script only runs if it's invoked directly (ie, it checks for `require.main === module` or `!module.parent`)
 
 ## Install
 
